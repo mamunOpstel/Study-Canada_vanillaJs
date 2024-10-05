@@ -4,6 +4,14 @@
   font-family: "Inter", sans-serif;
 }
 :root {
+  --subheading-font-size: xx-large;
+  --big-text-font-size: x-large;
+  --midium-text-font-size: large;
+  --primary-gray: #555555;
+  --primary-black: #111111;
+  --secondary-black: #333333;
+  --primary-red: #e50019;
+  --primary-font-weight: 700;
 }
 
 .wraper {
@@ -15,6 +23,9 @@
 }
 .section-margin {
   margin: 3rem 0;
+}
+.top-big-margin {
+  margin-top: 7rem;
 }
 
 .flex-center {
@@ -62,18 +73,12 @@
   color: #333333;
 }
 
-/* Buttons */
-.hero-button {
-  all: unset;
-  width: 220px;
-  height: 50px;
-  border-radius: 8px;
-  color: #e91d1d;
-  background-color: white;
-  text-align: center;
-  cursor: pointer;
-  font-weight: 700;
+.small-heading{
+  font-size: var(--big-text-font-size);
+  font-weight: var(--primary-font-weight);
+  color: var(--primary-black);
 }
+
 .btn-p {
   padding: 10px 15px;
 }

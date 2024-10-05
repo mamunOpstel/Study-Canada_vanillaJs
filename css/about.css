@@ -1,0 +1,124 @@
+/* Our-Infrastructure  */
+#Our-Infrastructure .floating-leaf {
+  position: absolute;
+  right: 0;
+  transform: rotate(270deg);
+}
+#Our-Infrastructure .img-box {
+  position: relative;
+  padding-left: 1rem;
+  margin-top: 7rem;
+}
+#Our-Infrastructure .back-box {
+  border-left: 10px solid #dddddd;
+  border-bottom: 10px solid #dddddd;
+  border-bottom-left-radius: 40px;
+  height: 100%;
+  width: 80%;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+#Our-Infrastructure .img-box img {
+  width: 80%;
+  border-radius: 5px;
+  aspect-ratio: 570/ 430;
+}
+
+#play-btn {
+  width: 90px;
+  padding: 8px 30px;
+  border: none;
+  outline: none;
+  background-color: aliceblue;
+  backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 45%;
+  left: 40%;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.play-btn-img {
+  margin-right: 5px;
+  height: auto;
+}
+
+#Our-Infrastructure .text-box {
+  color: var(--primary-gray);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+#Our-Infrastructure .text-box h2 {
+  font-size: var(--subheading-font-size);
+  color: var(--primary-black);
+  margin-bottom: 2rem;
+}
+#Our-Infrastructure .text-box .data-box p {
+  color: var(--secondary-black);
+  font-size: var(--midium-text-font-size);
+}
+#Our-Infrastructure .text-box .data-box span {
+  color: var(--primary-red);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--big-text-font-size);
+}
+
+/* Our-Infrastructure  */
+
+/* Our-Way-of-Thinking */
+#Our-Way-of-Thinking {
+  color: var(--primary-gray);
+}
+#Our-Way-of-Thinking h1 {
+  font-size: var(--subheading-font-size);
+  font-weight: var(--primary-font-weight);
+  color: var(--primary-black);
+}
+#Our-Way-of-Thinking .boxes {
+  background-color: #f7f7f7;
+  height: 250px;
+  padding: 1rem;
+  padding-left: 2rem;
+  border-radius: 8px;
+}
+#Our-Way-of-Thinking .boxes p {
+  color: var(--primary-gray);
+  font-size: var(--midium-text-font-size);
+}
+#Our-Way-of-Thinking .boxes h2 {
+  color: var(--primary-red);
+  font-size: var(--big-text-font-size);
+  font-weight: var(--primary-font-weight);
+}
+/* Our-Way-of-Thinking */
+
+/* Our-Branches */
+#Our-Branches .locations {
+  padding: 5px 8px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 30px 0 #0000001a;
+}
+#Our-Branches .location-icon {
+  width: 18px;
+}
+#Our-Branches .bangladeshMap{
+  width: 100%;
+}
+/* Our-Branches */
+
+/* What-We-Do */
+#What-We-Do p{
+  color: var(--primary-gray);
+}
+/* What-We-Do */
