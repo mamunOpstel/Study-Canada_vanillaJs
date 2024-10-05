@@ -1,0 +1,232 @@
+/* NAVBAR */
+/* navbox1's styles starts here */
+#navbox1-wraper {
+  background-color: #eeeeee;
+  width: 100%;
+}
+#navbox1 {
+  max-width: 1500px;
+  margin: auto;
+  background-color: #eeeeee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+/* Input boxe */
+#navbox1 .inputBox {
+  width: 400px;
+  display: flex;
+  flex-wrap: nowrap;
+  position: relative;
+}
+#navbox1 .inputBox input {
+  width: 90%;
+  height: 45px;
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding-left: 1rem;
+  font-weight: 600;
+}
+
+#navbox1 .inputBox #searchIcon,
+#navbox1 .inputBox #searchIconBg {
+  position: absolute;
+  right: 55px;
+  top: 2px;
+}
+#navbox1 .inputBox #searchIcon {
+  top: 14px;
+  right: 67px;
+}
+/* Input boxe */
+/* navbox1's styles ends here */
+
+/* navbox2's styles starts here */
+#navbox2-wraper {
+  background-color: #f7f7f7;
+}
+#navbox2 {
+  max-width: 1500px;
+  margin: auto;
+  background-color: #f7f7f7;
+  display: flex;
+  padding: 1rem 0;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+#navbox2 ul {
+  max-width: 1140px;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: auto 0;
+}
+#navbox2 ul li a {
+  all: unset;
+  /* font-size: 18px; */
+  font-size: small;
+  cursor: pointer;
+}
+
+#navbox2 .icons {
+  padding: 0.8rem;
+  width: 50px;
+  height: 50px;
+}
+
+#navbox2 #mail {
+  background-color: #e5319a;
+}
+#navbox2 #facebook {
+  background-color: #0e5da5;
+}
+#navbox2 #twitter {
+  background-color: #469cec;
+}
+#navbox2 #instagram {
+  background: linear-gradient(
+    228.01deg,
+    #ff0b80 0%,
+    #c442c7 50.81%,
+    #3167f2 95.26%
+  );
+}
+#navbox2 #whatsapp {
+  background-color: #10ad29;
+}
+#navbox2 #youtube {
+  background-color: #e91d1d;
+}
+
+#navbox2 .burger-menu {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+/* navbox2's styles ends here */
+
+/* Side menubar styles starts here */
+#side-menu ul {
+  background-color: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+#side-menu ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+#side-menu ul li a {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+#side-menu-close-btn {
+  all: unset;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  z-index: 110;
+  color: black;
+  font-size: larger;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.side-menu-hidden {
+  display: none;
+}
+/* Side menubar styles ends here */
+/* NAVBAR */
+
+/* Slider */
+#slides-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.slide {
+  width: 100%;
+  background-image: url("/asset/images/slides-image/slide-img1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-image: fill 1
+  linear-gradient(rgba(31, 30, 30, 0.726), rgba(0, 0, 0, 0.685));
+  color: white;
+  display: none;
+}
+.slide a{
+  text-decoration: none;
+  color: red;
+}
+#slide2 {
+  background-image: url("/asset/images/slides-image/slide-img2.png");
+}
+#slide3 {
+  background-image: url("/asset/images/slides-image/slide-img3.png");
+}
+.current-slide {
+  display: block;
+}
+.slide-content {
+  height: 500px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.slider-btns-box {
+  background-color: #fffdfd;
+  position: absolute;
+  z-index: 20;
+  bottom: -30px;
+  left: 30px;
+  width: 100px;
+  gap: 8px;
+  padding: 10px 64px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.212),
+    inset 10px 10px 20px rgba(0, 0, 0, 0.212);
+}
+.slider-btns-box span {
+  width: 2px;
+  height: 100%;
+}
+
+.slider-btns-box .left-icon,
+.slider-btns-box .right-icon {
+  width: 40px;
+  height: 40px;
+  padding: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider-btns-box .left-icon {
+  background-color: #e91d1d;
+}
+.slider-btns-box .right-icon {
+  background-color: #ffe0cf;
+}
+/* Slider */

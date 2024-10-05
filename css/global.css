@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+:root {
+}
+
+.wraper {
+  width: 100%;
+}
+.max-container {
+  max-width: 1500px;
+  margin: auto;
+}
+.section-margin {
+  margin: 3rem 0;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.flex-row-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 12px;
+}
+.flex-row-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.flex-v-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.heading {
+  font-weight: 700;
+}
+.heading-red {
+  color: #e50019;
+  font-weight: 700;
+}
+
+.subheading {
+  font-weight: 600;
+  color: #333333;
+}
+
+/* Buttons */
+.hero-button {
+  all: unset;
+  width: 220px;
+  height: 50px;
+  border-radius: 8px;
+  color: #e91d1d;
+  background-color: white;
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+.btn-p {
+  padding: 10px 15px;
+}
+/* Buttons */
+
+/* list */
+ul {
+  list-style: circle;
+}
+ul li {
+  margin-bottom: 0.7rem;
+}
+/* list */

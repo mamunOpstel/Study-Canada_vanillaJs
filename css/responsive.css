@@ -1,0 +1,52 @@
+/* For Hero Section */
+@media screen and (min-width: 780px) {
+  #heroSectionLaef {
+    left: -30px;
+  }
+}
+/* For Hero Section */
+
+/* For Professionals Section */
+@media screen and (max-width: 1500px) {
+  #Professionals #Professionals-card-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #Professionals #Professionals-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 780px) {
+  #Professionals #Professionals-card-container {
+    grid-template-columns: 1fr;
+  }
+}
+/* For Professionals Section */
+
+/* For guardians-section  Section */
+@media screen and (max-width: 780px) {
+  #guardians-section .floating-img {
+    top: -15px;
+  }
+}
+/* For guardians-section  Section */
+
+/* Visa Processing section starts here */
+@media screen and (max-width: 1140px) {
+  #Visa-Processing .passport-float-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+/* Visa Processing section ends here */
+
+/* Contact-form section starts here */
+@media screen and (max-width: 780px) {
+  #Contact-form .Contact-form-float-img {
+    left: 10%;
+  }
+}
+/* Contact-form section ends here */

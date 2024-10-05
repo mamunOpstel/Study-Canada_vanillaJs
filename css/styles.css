@@ -1,0 +1,654 @@
+body {
+  min-height: 200vh;
+}
+
+/* Hero section starts here */
+#heroSectionLaef {
+  position: absolute;
+  z-index: 10;
+  left: -20px;
+  top: 40px;
+  width: 100px;
+  height: 100px;
+}
+
+#heroSection {
+  width: 100%;
+  margin-bottom: 7rem !important;
+}
+#heroSection #container {
+  max-width: 1500px;
+  margin: auto;
+}
+
+#heroSection #box1 {
+  position: relative;
+  border-radius: 8px;
+  padding-left: 2rem;
+  font-family: "Inter", sans-serif;
+  background-image: url("/asset/images/bg-images/hero-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-image: fill 1
+    linear-gradient(rgba(128, 128, 128, 0.534), rgba(0, 0, 0, 0.562));
+}
+
+#heroSection #box1 #slider-box {
+  background-color: #fffdfd;
+  position: absolute;
+  z-index: 20;
+  bottom: -30px;
+  width: 100px;
+  gap: 8px;
+  padding: 10px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.212),
+    inset 10px 10px 20px rgba(0, 0, 0, 0.212);
+}
+#heroSection #box1 #slider-box span {
+  width: 2px;
+  height: 100%;
+}
+
+#heroSection #box1 #slider-box .left-icon,
+#heroSection #box1 #slider-box .right-icon {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+#heroSection #box1 #slider-box .left-icon {
+  background-color: #e91d1d;
+}
+#heroSection #box1 #slider-box .right-icon {
+  background-color: #ffe0cf;
+}
+
+#heroSection h1,
+#heroSection p {
+  color: white;
+  font-weight: 600;
+}
+
+#heroSection #box1 h1 {
+  font-weight: 700;
+}
+#heroSection #box2 .boxes {
+  min-height: 100px;
+  background-color: #0e5da5;
+  border-radius: 8px;
+}
+
+#heroSection #box2 .boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  background-image: url("/asset/images/bg-images/hero-bg3.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-image: fill 1
+    linear-gradient(rgba(54, 54, 54, 0.726), rgba(0, 0, 0, 0.692));
+}
+
+#heroSection #box2 .box1 {
+  min-height: 250px;
+  background-image: url("/asset/images/bg-images/hero-bg2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: end;
+  padding-left: 2rem;
+  padding-bottom: 1rem;
+  border-image: fill 1 linear-gradient(rgba(54, 54, 54, 0), rgba(0, 0, 0, 0));
+}
+/* Hero section ends here */
+
+/* Professional Team section starts here */
+#Professionals .heading h2 {
+  font-weight: 700;
+}
+#Professionals .heading .floating-leaf {
+  position: absolute;
+  right: 0;
+  top: -60px;
+}
+
+#Professionals #Professionals-card-container {
+  display: grid;
+  gap: 3rem 1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#Professionals .professional-cards {
+  width: 280px;
+  max-width: 280px;
+  color: #333333;
+  font-size: large;
+  font-weight: 700;
+}
+#Professionals .professional-cards p {
+  margin-bottom: 5px;
+}
+#Professionals .professional-cards a {
+  text-decoration: none;
+}
+
+#Professionals .professional-cards .img-box {
+  width: 280px;
+  height: 200px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: #cccccc;
+  padding: 1rem 0;
+}
+
+#Professionals .professional-cards img {
+  width: 90px;
+  height: auto;
+}
+#Professionals .professional-cards .status {
+  color: red;
+}
+/* Professional Team section ends here */
+
+/* Student Essentials section starts here */
+#Student-Esentials {
+  margin-top: 7rem;
+}
+
+#Student-Esentials .box1 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 8px;
+  background-color: #eeeeee;
+  border-radius: 10px;
+}
+
+#Student-Esentials .box1 h2 {
+  color: #121a50;
+}
+#Student-Esentials .box1 p,
+#Student-Esentials .box1 a {
+  font-size: large;
+}
+#Student-Esentials .heart {
+  width: 100px;
+  height: 100px;
+  background-color: #0e5da5;
+  padding: 30px;
+  border-radius: 8px;
+}
+#Student-Esentials .heart img {
+  width: 45px;
+  height: 39px;
+}
+#Student-Esentials .box1 a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#Student-Esentials .box2 .icon {
+  width: 70px;
+  height: 70px;
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+
+#Student-Esentials .box2 .map {
+  background-color: #e91d1d;
+}
+
+#Student-Esentials .box2 .bag {
+  background-color: #196225;
+}
+#Student-Esentials .box2 .money {
+  background-color: #121a50;
+}
+#Student-Esentials .box2 .headPhone {
+  background-color: #0e5da5;
+}
+
+#Student-Esentials .box2 .boxes {
+  height: 210px;
+  background-color: #eeeeee;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* Student Essentials section ends here */
+
+/* guardians-section section starts here */
+#guardians-section {
+  margin-top: 7rem;
+  padding: 3rem 0;
+  background-color: #f7f7f7;
+  position: relative;
+}
+
+#guardians-section div {
+  position: relative;
+  z-index: 10;
+}
+
+#guardians-section .floating-img,
+#guardians-section .floating-img2 {
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+#guardians-section .floating-img {
+  top: 30px;
+}
+#guardians-section .floating-img2 {
+  bottom: 0;
+  right: 30%;
+  opacity: 0.6;
+}
+
+#guardians-section .heading {
+  font-weight: 700;
+  color: #e91d1d;
+}
+
+#guardians-section h3 {
+  font-weight: 600;
+  color: #333333;
+}
+#guardians-section p {
+  font-weight: 400;
+  color: #555555;
+}
+
+#guardians-section .btn {
+  padding: 10px 15px;
+}
+/* guardians-section section ends here */
+
+/* About-study-canada section starts here */
+#About-study-canada {
+  position: relative;
+  margin-top: 7rem;
+}
+
+#About-study-canada h1 {
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 1rem;
+}
+#About-study-canada h3 {
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+#About-study-canada .floating-img {
+  position: absolute;
+  right: 10%;
+  opacity: 0.5;
+}
+/* About-study-canada section ends here */
+
+/* Canadian-Colleges-Universities section starts here */
+#Canadian-Colleges-Universities {
+  margin-top: 7rem;
+  position: relative;
+}
+#Canadian-Colleges-Universities .floating-img {
+  position: absolute;
+  transform: rotateY(180deg);
+  top: -30px;
+  z-index: -1;
+}
+
+#Canadian-Colleges-Universities h1 {
+  text-align: center;
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 2rem;
+}
+
+#Canadian-Colleges-Universities .tab-btns {
+  all: unset;
+  color: #de7a7a;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#Canadian-Colleges-Universities .tab-btn-active {
+  color: #e50019;
+  border-bottom: 2px solid #e50019;
+}
+
+#Canadian-Colleges-Universities .tabs {
+  display: none;
+}
+#Canadian-Colleges-Universities .tab-active {
+  display: flex;
+  margin-top: 2rem;
+}
+
+#Canadian-Colleges-Universities .card-wraper {
+  background-color: #0e5da5;
+  min-height: 10vh;
+}
+
+#Canadian-Colleges-Universities .college-card {
+  background-color: #ffffff;
+  width: 380px;
+  border: 2px solid #aaaaaa;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+#Canadian-Colleges-Universities .college-card:hover {
+  box-shadow: 0 30px 50px #00000026;
+}
+
+#Canadian-Colleges-Universities .college-card .heading {
+  margin-top: 1rem;
+  font-size: large;
+  font-weight: 600;
+  color: #121a50;
+}
+#Canadian-Colleges-Universities .college-card .text {
+  color: #555555;
+}
+#Canadian-Colleges-Universities .college-card a {
+  text-decoration: none;
+  color: #e50019;
+  font-weight: 600;
+}
+/* Canadian-Colleges-Universities section ends here */
+
+/* Canadian-Colleges-Universities section starts here */
+#Admission-Support {
+  background-color: #f7f7f7;
+  margin-top: 7rem;
+  padding: 3rem 0;
+  position: relative;
+}
+
+#Admission-Support .float-img {
+  position: absolute;
+  right: 40%;
+  top: 0;
+  opacity: 0.5;
+}
+#Admission-Support .float-branch-img {
+  position: absolute;
+  right: 0;
+  bottom: -10%;
+}
+/* Canadian-Colleges-Universities section ends here */
+
+/* Visa Processing section starts here */
+#Visa-Processing {
+  min-height: 10vh;
+}
+#Visa-Processing #Visa-Processing-img {
+  width: 100%;
+  max-width: 600px;
+}
+#Visa-Processing p {
+  color: #555555;
+}
+#Visa-Processing .passport-float-img {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  z-index: -1;
+}
+/* Visa Processing section ends here */
+
+/* Immigration-and-Settlement section starts here */
+#Immigration-and-Settlement {
+  background-color: #f7f7f7;
+  padding: 4rem 0;
+  margin-top: 3rem;
+}
+/* Immigration-and-Settlement section ends here */
+
+/* Partnership section starts here */
+#Partnership {
+  padding: 4rem 0;
+  margin-top: 3rem;
+}
+#Partnership #partnership-slider-box {
+  width: max-content;
+  padding-right: 0.5rem;
+}
+
+#Partnership #partnership-slider-box .left-icon {
+  transform: rotateY(180deg); 
+}
+
+#Partnership #partnership-slider-box .icon {
+  padding: 12px 16px;
+  border-radius: 5px;
+  transition: all 0.2s linear;
+  cursor: pointer;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.158);
+}
+#Partnership #partnership-slider-box .icon:hover {
+  background-color: #ffe8e8;
+}
+
+#Partnership .card {
+  transition: all 0.2s linear;
+}
+#Partnership .card:hover {
+  box-shadow: 0 30px 50px #00000026;
+}
+#Partnership img {
+  width: 100%;
+  max-width: 150px;
+}
+/* Partnership section ends here */
+
+/* Referral Program section starts here */
+#Referral-Program {
+  padding: 2rem 0;
+}
+#Referral-Program h2 {
+  margin-bottom: 1rem;
+}
+#Referral-Program .cards {
+  /* width: 380px; */
+  color: white;
+  background-color: white;
+  border: 1px solid #aaaaaa;
+  border-radius: 5px;
+  padding: 12px;
+  transition: all 0.2s linear;
+}
+#Referral-Program .cards:hover {
+  box-shadow: 0 12px 30px #0000001a;
+}
+#Referral-Program .cards .date {
+  background-color: #0e5da5;
+  border-radius: 5px;
+  padding: 8px 15px;
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+}
+#Referral-Program .cards .text {
+  color: #111111;
+  font-weight: 600;
+}
+#Referral-Program .cards a {
+  color: red;
+  text-decoration: none;
+  font-weight: 600;
+}
+/* Referral Program section ends here */
+
+/* Contact-form section starts here */
+#Contact-form {
+  padding: 4rem 0;
+  margin-top: 3rem;
+}
+
+#Contact-form form {
+  position: relative;
+  font-weight: 500;
+  color: #555555;
+}
+#Contact-form .inputs-box {
+  margin-top: 3rem;
+}
+
+#Contact-form .Contact-form-float-img {
+  position: absolute;
+  width: 95px;
+  height: 95px;
+  z-index: -1;
+  left: 18%;
+}
+
+#Contact-form input,
+#Contact-form textarea {
+  background-color: #f8f8f8;
+}
+#Contact-form form input {
+  height: 50px;
+}
+#Contact-form textarea {
+  height: 128px;
+  margin-bottom: 20px;
+}
+#Contact-form button {
+  all: unset;
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+/* Contact-form section ends here */
+
+/* footer  section ends here */
+#footer {
+  padding: 4rem 0 1rem 0;
+  margin-top: 3rem;
+  background-color: #12173d;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+#footer .boxes {
+  padding-right: 2rem;
+}
+
+#footer .icons-box {
+  background-color: #ffffff33;
+  padding: 12px 10px;
+  border-radius: 5px;
+}
+#footer .icons-box .icon {
+  width: 25px;
+  height: 25px;
+}
+
+#footer ul {
+  list-style: square;
+}
+#footer ul a {
+  text-decoration: none;
+  color: white;
+}
+
+#footer .last-ul-container ul {
+  list-style: none;
+}
+#footer .last-ul-container img {
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  background-color: #71748b;
+  border-radius: 100%;
+  margin-right: 12px;
+}
+
+#footer .lines {
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(80deg, white, #12173d);
+}
+
+#footer .box-2 {
+  border-top: 1px solid #ffffff4d;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+/* footer section ends here */
+
+/* FAQ section starts here */
+#faq-section {
+  padding: 6rem 0 4rem 0;
+  margin-top: 3rem;
+  background-color: #f7f7f7;
+  position: relative;
+  z-index: 10;
+}
+#faq-section .faq-section-floating-img {
+  position: absolute;
+  width: 170px;
+  left: 0;
+  top: 0;
+  transform: rotateY(-180deg);
+  z-index: 1;
+}
+
+#faq-section p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+#faq-section .qna-box {
+  border: 1px solid #aaaaaa;
+}
+#faq-section .qna-box span {
+  background: #0e5da5;
+  padding: 12px 18px;
+  border-radius: 100%;
+  color: white;
+  font-weight: 600;
+}
+
+#faq-section .answer {
+  border-top: 1px solid #aaaaaa;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out; /* Animation */
+  padding: 0; /* Set padding to 0 initially */
+  border: none;
+}
+
+.open {
+  max-height: 300px; /* Adjust max-height depending on content */
+  padding: 10px 15px; /* Add padding when open */
+}
+
+.toggle-icon {
+  cursor: pointer;
+  float: right;
+  transition: transform 0.3s ease;
+}
+/* FAQ section ends here */
