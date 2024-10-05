@@ -1,0 +1,1435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/global.css" />
+    <link rel="stylesheet" href="/css/globalComponents.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/responsive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <!-- navbar -->
+      <nav
+        class="row-cols-1 w-100 d-flex flex-column justify-content-center align-items-center"
+      >
+        <!-- Navbox 1 -->
+        <div id="navbox1-wraper">
+          <div id="navbox1" class="row">
+            <div class="col">
+              <img src="/asset/images/Logo.svg" alt="" />
+            </div>
+            <div class="col d-none d-md-block">
+              <div class="inputBox">
+                <input
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Search Courses, universities..."
+                />
+                <img src="/asset/icon/serchicon.svg" alt="" id="searchIconBg" />
+                <img
+                  src="/asset//icon//searchicon2.svg"
+                  alt=""
+                  id="searchIcon"
+                />
+              </div>
+            </div>
+            <div class="col d-none d-xl-block">
+              <button type="button" class="btn btn-primary">
+                Partner with us
+              </button>
+              <button type="button" class="btn btn-danger">
+                Join our Referral Program
+              </button>
+            </div>
+          </div>
+        </div>
+        <!-- Navbox 1 -->
+
+        <!-- Navbox 2 -->
+        <div id="navbox2-wraper">
+          <div id="navbox2" class="row row-cols-1">
+            <div class="col-8 d-none d-xl-block">
+              <ul id="nav-ul">
+                <li>
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="/pages/about.html">About Us</a>
+                </li>
+                <li>
+                  <a href="/pages/services.html">Services</a>
+                </li>
+                <li>
+                  <a href="/pages/admissionHelp.html">Admission Help</a>
+                </li>
+                <li>
+                  <a href="/pages/findCourse.html">Find a course</a>
+                </li>
+                <li>
+                  <a href="/pages/studentEsentials.html">Student Esentials</a>
+                </li>
+                <li>
+                  <a href="/pages/studyCanada.html">Study Canada</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-4 d-none d-xl-block">
+              <img src="/asset//icon/mail.svg" alt="" class="icons" id="mail" />
+              <img
+                src="/asset//icon/facebook.svg"
+                alt=""
+                class="icons"
+                id="facebook"
+              />
+              <img
+                src="/asset//icon/twitter.svg"
+                alt=""
+                class="icons"
+                id="twitter"
+              />
+              <img
+                src="/asset//icon/instagram.svg"
+                alt=""
+                class="icons"
+                id="instagram"
+              />
+              <img
+                src="/asset//icon/whatsapp.svg"
+                alt=""
+                class="icons"
+                id="whatsapp"
+              />
+              <img
+                src="/asset//icon/youtube.svg"
+                alt=""
+                class="icons"
+                id="youtube"
+              />
+            </div>
+
+            <div class="col-2 offset-10 d-block d-xl-none">
+              <img
+                src="/asset/icon/burger-menu.svg"
+                alt="Burger-menu-image"
+                class="burger-menu"
+                id="side-menu-toggler"
+              />
+            </div>
+          </div>
+        </div>
+        <!-- Navbox 2 -->
+        <!-- Side-menu -->
+        <div id="side-menu" class="side-menu-hidden">
+          <div class="row"></div>
+          <div class="col-12">
+            <ul id="nav-ul">
+              <button id="side-menu-close-btn">X</button>
+              <li>
+                <a href="/">Home</a>
+              </li>
+              <li>
+                <a href="/pages/about.html">About Us</a>
+              </li>
+              <li>
+                <a href="/pages/services.html">Services</a>
+              </li>
+              <li>
+                <a href="/pages/admissionHelp.html">Admission Help</a>
+              </li>
+              <li>
+                <a href="/pages/findCourse.html">Find a course</a>
+              </li>
+              <li>
+                <a href="/pages/studentEsentials.html">Student Esentials</a>
+              </li>
+              <li>
+                <a href="/pages/studyCanada.html">Study Canada</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Side-menu -->
+      </nav>
+      <!-- navbar -->
+
+      <!-- Hero section -->
+      <section
+        id="heroSection"
+        class="max-container container my-4 position-relative"
+      >
+        <img
+          src="/asset/images/bg-images/leaf.svg"
+          alt=""
+          id="heroSectionLaef"
+        />
+        <div id="container" class="row row-cols-1 row-cols-lg-2 g-4">
+          <!-- Box 1 -->
+          <div
+            id="box1"
+            class="col-12 col-lg-8 boxes mb-4 mb-lg-0"
+            style="display: flex; align-items: end"
+          >
+            <div class="row row-cols-2">
+              <div class="col d-flex flex-column justify-content-center">
+                <h1 class="mb-2">Why Canada</h1>
+                <p>
+                  has been the most popular study destination for over 60%
+                  Bangladeshi students ?
+                </p>
+                <button class="hero-button">Contact Our Team</button>
+              </div>
+              <div class="col overflow-hidden">
+                <img src="/asset/images/bg-images/hero-img.svg" alt="" />
+              </div>
+            </div>
+            <div id="slider-box" class="flex-row-center">
+              <img src="/asset/icon/arrow-left.svg" alt="" class="left-icon" />
+              <span>&vert;</span>
+              <img
+                src="/asset/icon/arrow-right.svg"
+                alt=""
+                class="right-icon"
+              />
+            </div>
+          </div>
+          <!-- Box 1 -->
+
+          <!-- Box 2 -->
+          <div id="box2" class="col-12 col-lg-4 boxes">
+            <div class="row row-cols-1 g-2">
+              <div class="col boxes box1">
+                <button>How can we help?</button>
+              </div>
+              <div class="col boxes">
+                <p>Complete Education Profile Assessment</p>
+              </div>
+              <div class="col boxes">
+                <p>Complete Financial Requirement Assessment</p>
+              </div>
+            </div>
+          </div>
+          <!-- Box 2 -->
+        </div>
+      </section>
+      <!-- Hero section -->
+
+      <!-- Professional Team section -->
+      <section id="Professionals" class="wraper">
+        <div class="max-container container">
+          <div class="heading position-relative mb-4">
+            <h2>Meet Our Professional Team</h2>
+            <img src="/asset/images/leaf.svg" alt="" class="floating-leaf" />
+          </div>
+
+          <!-- Cards Container -->
+          <div id="Professionals-card-container" class="row all_con">
+            <div class="professional-cards">
+              <div class="img-box flex-center">
+                <img src="/asset/icon/persone-icon.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <p class="name">Mohammad Ibrahim (Abbas)</p>
+                <p class="status">The Owner</p>
+                <a href="#">Read More &#8594;</a>
+              </div>
+            </div>
+
+            <div class="professional-cards">
+              <div class="img-box flex-center">
+                <img src="/asset/icon/persone-icon.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <p class="name">Mohammad Ibrahim (Abbas)</p>
+                <p class="status">The Owner</p>
+                <a href="#">Read More &#8594;</a>
+              </div>
+            </div>
+
+            <div class="professional-cards">
+              <div class="img-box flex-center">
+                <img src="/asset/icon/persone-icon.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <p class="name">Mohammad Ibrahim (Abbas)</p>
+                <p class="status">The Owner</p>
+                <a href="#">Read More &#8594;</a>
+              </div>
+            </div>
+
+            <div class="professional-cards">
+              <div class="img-box flex-center">
+                <img src="/asset/icon/persone-icon.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <p class="name">Mohammad Ibrahim (Abbas)</p>
+                <p class="status">The Owner</p>
+                <a href="#">Read More &#8594;</a>
+              </div>
+            </div>
+
+            <div class="professional-cards">
+              <div class="img-box flex-center">
+                <img src="/asset/icon/persone-icon.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <p class="name">Mohammad Ibrahim (Abbas)</p>
+                <p class="status">The Owner</p>
+                <a href="#">Read More &#8594;</a>
+              </div>
+            </div>
+
+            <div class="professional-cards">
+              <div class="img-box flex-center">
+                <img src="/asset/icon/persone-icon.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <p class="name">Mohammad Ibrahim (Abbas)</p>
+                <p class="status">The Owner</p>
+                <a href="#">Read More &#8594;</a>
+              </div>
+            </div>
+
+            <div class="professional-cards">
+              <div class="img-box flex-center">
+                <img src="/asset/icon/persone-icon.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <p class="name">Mohammad Ibrahim (Abbas)</p>
+                <p class="status">The Owner</p>
+                <a href="#">Read More &#8594;</a>
+              </div>
+            </div>
+            <div class="professional-cards">
+              <div class="img-box flex-center">
+                <img src="/asset/icon/persone-icon.svg" alt="" />
+              </div>
+              <div class="text-box">
+                <p class="name">Mohammad Ibrahim (Abbas)</p>
+                <p class="status">The Owner</p>
+                <a href="#">Read More &#8594;</a>
+              </div>
+            </div>
+          </div>
+          <!-- Cards Container -->
+        </div>
+      </section>
+      <!-- Professional Team section -->
+
+      <!-- Student Essentials section -->
+      <section id="Student-Esentials" class="wraper">
+        <div class="max-container container">
+          <h2 class="student-heading mb-5">Student Essentials</h2>
+          <div class="box-container row row-cols-1 row-cols-xl-2">
+            <div class="col container mb-2 mb-xl-0">
+              <div class="box1">
+                <div class="heart">
+                  <img src="/asset/images/hrart.svg" alt="" />
+                </div>
+                <h2>Get the Right Student Health Cover</h2>
+                <p>
+                  Congratulations! You've made a great decision to study Canada.
+                  We’re here to make the process easy, finding the best cover to
+                  suit your needs.
+                </p>
+                <a href="#">Read More &#8594;</a>
+              </div>
+            </div>
+            <div class="col container box2">
+              <div class="row row-cols-2 g-2">
+                <div class="col">
+                  <div class="boxes">
+                    <div class="icon map flex-center">
+                      <img src="/asset/icon/map.svg" alt="" />
+                    </div>
+                    <h4>Find Accommodation</h4>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="boxes">
+                    <div class="icon bag flex-center">
+                      <img src="/asset/icon/bag.svg" alt="" />
+                    </div>
+                    <h4>Student Banking</h4>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="boxes">
+                    <div class="icon money flex-center">
+                      <img src="/asset/icon/money.svg" alt="" />
+                    </div>
+                    <h4>Transfer Money Securely</h4>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="boxes">
+                    <div class="icon headPhone flex-center">
+                      <img src="/asset/icon/headPhone.svg" alt="" />
+                    </div>
+                    <h4>Our Helpline</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Student Essentials section -->
+
+      <!-- Guardians section -->
+      <section id="guardians-section" class="wraper">
+        <img
+          src="/asset/images/bg-images/leaf branch.svg"
+          alt="floating-img"
+          class="floating-img"
+        />
+        <div class="max-container container">
+          <div class="row row-cols-1 gy-2">
+            <div class="col">
+              <h2 class="heading">Parents/Guardians</h2>
+            </div>
+            <div class="col">
+              <h4>
+                All you need to know when sending your child to study abroad
+              </h4>
+              <p>
+                Honestly, that’s one of the bravest decisions you’ll ever make,
+                and yes, the most crucial one for your child. Studying abroad
+                means your child will come back with international exposure and
+                a widened mind-set. As a parent, it is your responsibility to
+                support your child in this decision and also gear up to be a
+                part of the process.
+              </p>
+            </div>
+            <div class="col">
+              <h4>What do you need to do as a parent?</h4>
+              <p>
+                You need to know what motivates your child. As a parent, you
+                should be an active part of their decision-making procedure to
+                ensure they take the right calls in life.
+              </p>
+            </div>
+            <div class="col">
+              <h4>Discuss goals openly</h4>
+              <p>
+                Sit down and understand why your child wants to go abroad –
+                whether it is career-driven or personal. It is important to know
+                what exactly your child seeks in life to be able to guide or
+                support them.
+              </p>
+            </div>
+            <div class="col">
+              <h4>Stay informed</h4>
+              <p>
+                As a parent take part in researching about the courses your
+                child is interested in, the universities they have been talking
+                about and the kind of lifestyle they would most thrive in. This
+                research will also include information on course curriculum,
+                campus life and accommodations options available abroad.
+              </p>
+            </div>
+            <div class="col">
+              <h4>Consider your challenges</h4>
+              <p>
+                Reach out to friends and family whose children have gone abroad.
+                Ask them about the challenges you are likely to face and figure
+                out how to deal with them. The thumb rule for this is “Be
+                specific as you can” and clear all your doubts before
+                shortlisting any option.
+              </p>
+            </div>
+            <div class="col">
+              <button
+                type="button"
+                class="btn btn-primary"
+                style="background-color: #0e5da5"
+              >
+                Read More
+              </button>
+              <button type="button" class="btn btn-danger">
+                <img src="/asset/icon/youtube.svg" alt="" /> Watch Video
+              </button>
+            </div>
+          </div>
+          <img
+            src="/asset/images/bg-images/leaf.svg"
+            alt="floating-img"
+            class="floating-img2"
+          />
+        </div>
+      </section>
+      <!-- Guardians section -->
+
+      <!-- About-study-canada -->
+      <section id="About-study-canada" class="wraper">
+        <div class="max-container container position-relative">
+          <div class="row row-cols-1 row-cols-xl-2 gy-5">
+            <div class="col">
+              <img
+                src="/asset/images/students/student1.svg"
+                alt=""
+                class="About-study-canada-img w-100"
+              />
+            </div>
+            <div class="col">
+              <div class="flex-v-center h-100">
+                <h1>About Study Canada</h1>
+                <h3>
+                  How Canadian institutions accept education system of
+                  Bangladesh?
+                </h3>
+                <p>
+                  Discover top-ranked universities and colleges, explore
+                  top-rated programs, and scholarships, and unlock the window of
+                  opportunities with Study Canada.
+                </p>
+                <p>
+                  We are one of the most trusted education consultancy firms in
+                  Bangladesh for students looking to study abroad from
+                  Bangladesh.
+                </p>
+                <p>
+                  Start your journey towards a successful education and career
+                  in Canada with us.
+                </p>
+                <div class="btn-box">
+                  <button
+                    type="button"
+                    class="btn btn-primary btn-p"
+                    style="background-color: #0e5da5"
+                  >
+                    Read More
+                  </button>
+                  <button type="button" class="btn btn-danger btn-p">
+                    <img src="/asset/icon/youtube.svg" alt="" /> Watch Video
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <img
+            src="/asset/images/bg-images/leaf.svg"
+            alt="floating-img"
+            class="floating-img"
+          />
+        </div>
+      </section>
+      <!-- About-study-canada -->
+
+      <!-- Canadian-Colleges-Universities -->
+      <section id="Canadian-Colleges-Universities" class="wraper">
+        <img
+          src="/asset/images/bg-images/leaf branch.svg"
+          alt=""
+          class="floating-img"
+        />
+        <div class="max-container container">
+          <div class="row row-cols-1">
+            <div class="col">
+              <h1>Canadian Colleges & Universities</h1>
+            </div>
+            <div class="col">
+              <div id="tabs-container" class="flex-row-center">
+                <button class="tab-btns tab-btn-active" onclick="changeTab(0)">
+                  College</button
+                ><button class="tab-btns" onclick="changeTab(1)">
+                  University</button
+                ><button class="tab-btns" onclick="changeTab(2)">
+                  Province
+                </button>
+              </div>
+            </div>
+            <div class="col">
+              <!-- Tab 1 -->
+              <div
+                class="tabs row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 tab-active"
+              >
+                <div class="col">
+                  <div class="college-card">
+                    <img src="/asset/images/colleges/college1.svg" alt="" />
+                    <div class="text-box">
+                      <p class="heading">Canadian College Name Here</p>
+                      <p class="text">
+                        The University of Toronto is a prestigious institution
+                        in Canada, known for its academic excellence, research
+                        prowess, and vibrant community.
+                      </p>
+                      <a href="#">View More &#8594;</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="college-card">
+                    <img src="/asset/images/colleges/college1.svg" alt="" />
+                    <div class="text-box">
+                      <p class="heading">Canadian College Name Here</p>
+                      <p class="text">
+                        The University of Toronto is a prestigious institution
+                        in Canada, known for its academic excellence, research
+                        prowess, and vibrant community.
+                      </p>
+                      <a href="#">View More &#8594;</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="college-card">
+                    <img src="/asset/images/colleges/college1.svg" alt="" />
+                    <div class="text-box">
+                      <p class="heading">Canadian College Name Here</p>
+                      <p class="text">
+                        The University of Toronto is a prestigious institution
+                        in Canada, known for its academic excellence, research
+                        prowess, and vibrant community.
+                      </p>
+                      <a href="#">View More &#8594;</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="college-card">
+                    <img src="/asset/images/colleges/college1.svg" alt="" />
+                    <div class="text-box">
+                      <p class="heading">Canadian College Name Here</p>
+                      <p class="text">
+                        The University of Toronto is a prestigious institution
+                        in Canada, known for its academic excellence, research
+                        prowess, and vibrant community.
+                      </p>
+                      <a href="#">View More &#8594;</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="college-card">
+                    <img src="/asset/images/colleges/college1.svg" alt="" />
+                    <div class="text-box">
+                      <p class="heading">Canadian College Name Here</p>
+                      <p class="text">
+                        The University of Toronto is a prestigious institution
+                        in Canada, known for its academic excellence, research
+                        prowess, and vibrant community.
+                      </p>
+                      <a href="#">View More &#8594;</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="college-card">
+                    <img src="/asset/images/colleges/college1.svg" alt="" />
+                    <div class="text-box">
+                      <p class="heading">Canadian College Name Here</p>
+                      <p class="text">
+                        The University of Toronto is a prestigious institution
+                        in Canada, known for its academic excellence, research
+                        prowess, and vibrant community.
+                      </p>
+                      <a href="#">View More &#8594;</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Tab 1 -->
+              <!-- Tab 2 -->
+              <div class="tabs row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3">
+                <div class="col">
+                  <div class="college-card">
+                    <img src="/asset/images/colleges/college1.svg" alt="" />
+                    <div class="text-box">
+                      <p class="heading">Canadian College Name Here</p>
+                      <p class="text">
+                        The University of Toronto is a prestigious institution
+                        in Canada, known for its academic excellence, research
+                        prowess, and vibrant community.
+                      </p>
+                      <a href="#">View More &#8594;</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="college-card">
+                    <img src="/asset/images/colleges/college1.svg" alt="" />
+                    <div class="text-box">
+                      <p class="heading">Canadian College Name Here</p>
+                      <p class="text">
+                        The University of Toronto is a prestigious institution
+                        in Canada, known for its academic excellence, research
+                        prowess, and vibrant community.
+                      </p>
+                      <a href="#">View More &#8594;</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Tab 2 -->
+              <!-- Tab 3 -->
+              <div class="tabs row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3">
+                <div class="col">
+                  <div class="college-card">
+                    <img src="/asset/images/colleges/college1.svg" alt="" />
+                    <div class="text-box">
+                      <p class="heading">Canadian College Name Here</p>
+                      <p class="text">
+                        The University of Toronto is a prestigious institution
+                        in Canada, known for its academic excellence, research
+                        prowess, and vibrant community.
+                      </p>
+                      <a href="#">View More &#8594;</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Tab 3 -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Canadian-Colleges-Universities -->
+
+      <!-- Admission Support section -->
+      <section id="Admission-Support" class="wraper">
+        <img src="/asset/images/bg-images/leaf.svg" alt="" class="float-img" />
+        <div class="max-container container">
+          <div class="row row-cols-1 gy-2">
+            <div class="col">
+              <h2 class="heading-red">Admission Support</h2>
+            </div>
+            <div class="col">
+              <p>
+                Study Canada Education is a trusted consultancy firm with a
+                demonstrated track record of guiding Bangladeshi students
+                through the overall admission process and enrollment. We offer
+                the following services.
+              </p>
+            </div>
+            <div class="col">
+              <h4 class="subheading">What do you need to do as a parent?</h4>
+              <p>
+                You need to know what motivates your child. As a parent, you
+                should be an active part of their decision-making procedure to
+                ensure they take the right calls in life.
+              </p>
+            </div>
+            <div class="col">
+              <h4 class="subheading">Extensive Admissions Knowledge</h4>
+              <p>
+                Selecting the best university and leading program for
+                Bangladeshi students may be alluring. As admissions counsellors,
+                we can give each student a wealth of information to assist them
+                in selecting the best university for them.
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                Additionally, we help students identify the most relevant area
+                or program for their preferences and lead them toward a
+                university that suits their educational and personal
+                requirements.
+              </p>
+            </div>
+            <div class="col">
+              <h4 class="subheading">Step-by-Step Instructions</h4>
+              <p>
+                We will assist you throughout the complete planning process. Our
+                professional mentors precisely understand what practice and
+                development distinguish a student. They can assist in creating a
+                comprehensive plan for students that will provide them with a
+                successful application.
+              </p>
+            </div>
+            <div class="col">
+              <p>
+                As admissions consultants, we are familiar with the advantages
+                and disadvantages of every college/university entrance test and
+                can guide students on which one is ideal for them. During the
+                application process, we consult with each candidate to design a
+                captivating application that usually works for them. We display
+                the best possible level in Canada university admission.
+              </p>
+            </div>
+            <div class="col">
+              <button type="button" class="btn btn-danger">
+                Contact Our Experts
+              </button>
+              <button
+                type="button"
+                class="btn btn-primary"
+                style="background-color: #0e5da5"
+              >
+                Call Now
+              </button>
+            </div>
+          </div>
+        </div>
+        <img
+          src="/asset/images/bg-images/leaf branch.svg"
+          alt=""
+          class="float-branch-img"
+        />
+      </section>
+      <!-- Admission Support section -->
+
+      <!-- Visa Processing section -->
+      <section id="Visa-Processing" class="wraper">
+        <div class="max-container container">
+          <div class="row row-cols-1">
+            <div class="col mt-5">
+              <div>
+                <h2 class="heading mb-4">Visa Processing</h2>
+                <p>
+                  StudyCanada visa processing time is the most challenging part
+                  that Bangladeshi students face before studying abroad. Yes,
+                  it's understandable if you're concerned about the process.
+                </p>
+                <p>
+                  Keeping this in mind, StudyCanada analyzes a comprehensive
+                  guide that will assist you in straightforwardly getting the
+                  procedure.
+                </p>
+                <p>
+                  Have a look at Canadian student visa processing requirements
+                  below:
+                </p>
+              </div>
+            </div>
+            <div class="col position-relative mt-3">
+              <div class="row row-cols-1 row-cols-xl-2">
+                <div class="col">
+                  <img
+                    src="/asset/images/passport.svg"
+                    alt=""
+                    id="Visa-Processing-img"
+                  />
+                </div>
+                <div class="col">
+                  <h3>Canada Study Visa Requirements</h3>
+                  <ul>
+                    <li>
+                      A confirmation letter from a recognized educational
+                      institution stating that you are accepted to study in
+                      Canada.
+                    </li>
+                    <li>
+                      For the DLI to receive the acceptance letter, it should
+                      have a COVID-19 preparedness plan approved.
+                    </li>
+                    <li>
+                      A Québec Acceptance Certificate is also required for
+                      students to enroll in Quebec.
+                    </li>
+                    <li>
+                      It is necessary to provide evidence of financial backup
+                      for the application and whether any family members are
+                      coming to Canada with you.
+                    </li>
+                    <li>
+                      Proof that, as a student, you have enough funds in your
+                      bank account to cover your education costs.
+                    </li>
+                    <li>A Certificate of Medical Fitness (If required).</li>
+                    <li>Certificate of Vaccination</li>
+                  </ul>
+                </div>
+              </div>
+              <img
+                src="/asset/images/bg-images/leaf.svg"
+                alt=""
+                class="passport-float-img"
+              />
+            </div>
+
+            <div class="col mt-3">
+              <h3 class="subheading">Canada Student Visa Process</h3>
+              <ul>
+                <li>
+                  The Canadian government analyzes the required application to
+                  ensure that students have all the documentation necessary.
+                  They can either reject it or ask for the missing documentation
+                  if it's lacking.
+                </li>
+                <li>
+                  Students may be required to attend an interview with national
+                  officials and may be asked to present biometric information to
+                  clear the relevant clearances.
+                </li>
+                <li>
+                  A residence permit also may be required for students from
+                  certain countries. However, this will be processed around the
+                  same period as the application for a study permit.
+                </li>
+                <li>
+                  A 60-days personal checklist code is provided to students who
+                  are found to be eligible for the program, and they must use it
+                  to finalize their online application. Make a duplicate of the
+                  page with the code for reference in the future.
+                </li>
+                <li>
+                  They'll also get application guidance, a tuition cost
+                  estimate, and a list of documents they'll need to submit with
+                  the student application. Students will receive their document
+                  checklists via email, permitting them to upload and transfer
+                  the documents to Citizenship and Immigration Canada (CIC).
+                </li>
+                <li>
+                  Maple Tree Education will assist you with every step of the
+                  visa application process. Our highly experienced visa experts
+                  will guide you through the entire procedure, ensuring that you
+                  receive a visa successfully.
+                </li>
+              </ul>
+            </div>
+
+            <div class="col mt-4">
+              <button
+                type="button"
+                class="btn btn-primary"
+                style="background-color: #0e5da5"
+              >
+                Read More
+              </button>
+              <button type="button" class="btn btn-danger">
+                Consult an Expert
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Visa Processing section -->
+
+      <!-- Immigration and Settlement section -->
+      <section id="Immigration-and-Settlement">
+        <div class="max-container container">
+          <div class="row row-cols-1 gy-5">
+            <div class="col">
+              <h2 class="heading-red">Immigration and Settlement Services</h2>
+            </div>
+            <div class="col mt-3">
+              <h4 class="subheading">
+                Eligibility requirement for Canadian Citizenship:
+              </h4>
+              <ul>
+                <li>
+                  Applicant must have been Canadian permanent resident and have
+                  lived in Canada for at least 1095 days in last 5 years before
+                  the date they sign the application.
+                </li>
+                <li>
+                  Passed the citizenship test ( 15 correct answers out of 20) if
+                  they are 18 to 54 years of age on the day, they sign the
+                  application.
+                </li>
+                <li>
+                  Applicant should be able to demonstrate proficiency in either
+                  one (or both) of the official languages of Canada is English
+                  or French if they are 18 to 54 years of age on the day, they
+                  sign the application.
+                </li>
+                <li>
+                  Candidate should not have any criminal history prohibitive to
+                  granting Canadian Citizenship.
+                </li>
+              </ul>
+            </div>
+            <div class="col mt-3">
+              <h4 class="subheading">
+                Language Requirements For Canadian Citizenship
+              </h4>
+              <p>
+                In order to prove language proficiency, candidates must submit
+                one of the accompanying documents:
+              </p>
+              <ul>
+                <li>Results from a CIC-approved third party test</li>
+                <li>
+                  Transcripts or a diploma certificate from a secondary or
+                  post-secondary education in English or French
+                </li>
+                <li>
+                  Proof of accomplishing Canadian level Benchmark (CLB) 4 or
+                  higher in certain government language programs.
+                </li>
+              </ul>
+              <h4 class="subheading mt-4">
+                <span class="text-danger">(Contact us with any questions)</span>
+                concerning Canadian citizenship requirements and applications.
+              </h4>
+            </div>
+            <div class="col mt-4">
+              <button
+                type="button"
+                class="btn btn-primary"
+                style="background-color: #0e5da5"
+              >
+                Read More
+              </button>
+              <button type="button" class="btn btn-danger">
+                Consult an Expert
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Immigration and Settlement section -->
+
+      <!-- Partnership section -->
+      <section id="Partnership" class="wraper">
+        <div class="max-container container">
+          <div class="d-flex justify-content-between">
+            <div class="">
+              <h2 class="heading mb-4">Partnership</h2>
+            </div>
+            <div class="">
+              <div id="partnership-slider-box" class="flex-row-center">
+                <img
+                  src="/asset/icon/arrow-right.svg"
+                  alt=""
+                  class="left-icon icon"
+                />
+                <img
+                  src="/asset/icon/arrow-right.svg"
+                  alt=""
+                  class="right-icon icon"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-cols-3 row-cols-md-5 g-3">
+            <div class="col">
+              <div class="card flex-center">
+                <img src="/asset/images/partners/partner1.svg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card flex-center">
+                <img src="/asset/images/partners/partner2.svg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card flex-center">
+                <img src="/asset/images/partners/partner3.svg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card flex-center">
+                <img src="/asset/images/partners/partner4.svg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card flex-center">
+                <img src="/asset/images/partners/partner5.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Partnership section -->
+
+      <!-- Referral Program section -->
+      <section id="Referral-Program" class="wraper">
+        <div class="max-container container">
+          <h2 class="heading">Referral Program</h2>
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 justify-content-center"
+          >
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Referral Program section -->
+
+      <!-- FAQ Section -->
+      <section id="faq-section" class="wraper">
+        <img
+          src="/asset/images/bg-images/leaf branch.svg"
+          alt=""
+          class="faq-section-floating-img"
+        />
+        <div class="max-container container">
+          <h2 class="heading text-center mb-5">
+            Frequently Asked Questions (FAQ’s)
+          </h2>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ Section -->
+
+      <!-- Contact form section -->
+      <section id="Contact-form" class="wraper">
+        <form action="" class="max-container container">
+          <img
+            src="/asset/images/bg-images/leaf.svg"
+            alt=""
+            class="Contact-form-float-img"
+          />
+          <h2 class="heading text-center">
+            Any Queries? Don't Hesitate <br />to
+            <span class="text-danger"> Contact Us!! </span>
+          </h2>
+          <div class="row row-cols-1 row-cols-md-2 inputs-box gy-4">
+            <div class="col">
+              <div class="row row-cols-1 g-4">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Full Name"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Phone Number"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Email Address"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col text-area-container">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn bg-danger text-white">
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+      <!-- Contact form section -->
+
+      <!-- Footer Section -->
+      <footer id="footer" class="wraper">
+        <div class="max-container container">
+          <div class="row row-cols-1">
+            <div class="col">
+              <div class="row gy-5">
+                <div class="col-12 col-md-6 col-xl-3 boxes">
+                  <div>
+                    <img src="/asset/images/logo2.svg" alt="" class="mb-4" />
+                    <p>
+                      We are leading online marketing agency and web development
+                      company & we always promised to get the best result on our
+                      every project.
+                    </p>
+                    <div class="social-icons-box">
+                      <a href="#" class="icons-box"
+                        ><img
+                          src="/asset/icon/facebook.svg"
+                          alt=""
+                          class="icon"
+                      /></a>
+                      <a href="#" class="icons-box"
+                        ><img src="/asset/icon/twitter.svg" alt="" class="icon"
+                      /></a>
+                      <a href="#" class="icons-box"
+                        ><img
+                          src="/asset/icon/instagram.svg"
+                          alt=""
+                          class="icon"
+                      /></a>
+                      <a href="#" class="icons-box"
+                        ><img src="/asset/icon/in.svg" alt="" class="icon"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 boxes">
+                  <div>
+                    <h3>Our Service</h3>
+                    <p class="lines"></p>
+                    <ul>
+                      <li><a href="#">Student Profile Analysis</a></li>
+                      <li><a href="#">Financial eligibility assessment</a></li>
+                      <li><a href="#">Visa Processing</a></li>
+                      <li><a href="#">Admission Support</a></li>
+                      <li><a href="#">Scholarship And Financial Aid</a></li>
+                      <li><a href="#">Post Departure Support</a></li>
+                      <li>
+                        <a href="#">Immigration and settlement services</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 boxes">
+                  <div>
+                    <h3>Useful links</h3>
+                    <p class="lines"></p>
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Service</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Event</a></li>
+                      <li><a href="#">Apply Now</a></li>
+                      <li>
+                        <a href="#">Contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 boxes">
+                  <div class="last-ul-container">
+                    <h3>Our Phone Number</h3>
+                    <p class="lines"></p>
+                    <ul>
+                      <li>
+                        <img src="/asset/icon/phone.svg" alt="" />017 0000 5555
+                      </li>
+                      <li>
+                        <img src="/asset/icon/phone.svg" alt="" />017 0000 5555
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="last-ul-container">
+                    <h3>Email or Website</h3>
+                    <p class="lines"></p>
+                    <ul>
+                      <li>
+                        <img
+                          src="/asset/icon/phone.svg"
+                          alt=""
+                        />studycan@gmail.com
+                      </li>
+                      <li>
+                        <img
+                          src="/asset/icon/phone.svg"
+                          alt=""
+                        />www.study-can.com
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="box-2">
+                <p>© 2023 Opstel IT All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Section -->
+    </main>
+
+    <!-- Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/globalcomponents.js"></script>
+    <!-- Script -->
+  </body>
+</html>
