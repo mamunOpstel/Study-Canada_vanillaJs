@@ -15,7 +15,38 @@
     <link rel="stylesheet" href="/css/global.css" />
     <link rel="stylesheet" href="/css/about.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
-    <!-- About page update -->
+
+    <style>
+      /* Initial style to hide the dropdown */
+      #services-dropdown {
+        display: none;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        background-color: rgb(221, 54, 54);
+        border: 1px solid #ddd;
+      }
+
+      #services-dropdown li {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+      }
+
+      #services-dropdown li a {
+        text-decoration: none;
+        color: black;
+      }
+
+      #services-dropdown li:hover {
+        background-color: #f0f0f0;
+      }
+
+      #services-li {
+        position: relative;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
     <main>
@@ -69,7 +100,12 @@
                   <a href="/pages/about.html">About Us</a>
                 </li>
                 <li>
-                  <a href="/pages/services.html">Services</a>
+                  <a href="#">Services</a>
+                  <ul id="services-dropdown" class="dropdown">
+                    <li><a href="/pages/service1.html">Service 1</a></li>
+                    <li><a href="/pages/service2.html">Service 2</a></li>
+                    <li><a href="/pages/service3.html">Service 3</a></li>
+                  </ul>
                 </li>
                 <li>
                   <a href="/pages/admissionHelp.html">Admission Help</a>
@@ -599,8 +635,8 @@
           </div>
 
           <div class="row gy-5 row-cols-1 row-cols-lg-2 align-items-center">
-            <div class="col ">
-              <div class="image-box container-lg ">
+            <div class="col">
+              <div class="image-box container-lg">
                 <img
                   src="/asset/images/students/student3.png"
                   alt="students image"
@@ -684,6 +720,656 @@
         </div>
       </section>
       <!-- Why-Coaching-Study-Canada section -->
+
+      <!-- Our-Leadership section -->
+      <section
+        id="Our-Leadership"
+        class="wraper top-big-margin position-relative"
+      >
+        <div class="max-container container">
+          <img
+            src="/asset/images/bg-images/leaf branch.svg"
+            alt="leaf-img"
+            class="floating-leaf"
+          />
+          <div class="mb-4">
+            <h1 class="heading">Our Leadership</h1>
+            <p
+              class="small-heading"
+              style="color: var(--secondary-black); font-weight: 400"
+            >
+              Leading ideas to action
+            </p>
+          </div>
+          <div class="row row-cols-1 g-4">
+            <div class="col">
+              <div
+                class="boxes flex-row-center flex-column flex-md-row justify-content-evenly gap-5 mb-4"
+              >
+                <img
+                  src="/asset/images/leaders/leader1.png"
+                  alt="leader1-img"
+                  class="leader1-img"
+                />
+                <div>
+                  <p class="heading">Leader Name Here</p>
+                  <p class="subheading">CEO & Co-founder, Study Canada</p>
+                  <p class="intro">
+                    <span>Esbo Khan</span> heads business development and
+                    marketing strategies. He is a certified member of CICC, and
+                    amongst the first licensed Canadian immigration consultants
+                    globally.
+                  </p>
+                  <div class="social-box flex-row-center justify-content-start">
+                    <div class="icon-box facebook">
+                      <img
+                        src="/asset/icon/facebook.svg"
+                        alt="facebook"
+                        class="facebook-icon icons"
+                      />
+                    </div>
+                    <div class="icon-box twitter">
+                      <img
+                        src="/asset/icon/twitter.svg"
+                        alt="facebook"
+                        class="-icon icons"
+                      />
+                    </div>
+                    <div class="icon-box instagram">
+                      <img
+                        src="/asset/icon/instagram.svg"
+                        alt="facebook"
+                        class="instagram-icon icons"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="boxes flex-row-center flex-column flex-md-row justify-content-evenly gap-5 mb-4"
+              >
+                <img
+                  src="/asset/images/leaders/leader1.png"
+                  alt="leader1-img"
+                  class="leader1-img"
+                />
+                <div>
+                  <p class="heading">Leader Name Here</p>
+                  <p class="subheading">CEO & Co-founder, Study Canada</p>
+                  <p class="intro">
+                    <span>Esbo Khan</span> heads business development and
+                    marketing strategies. He is a certified member of CICC, and
+                    amongst the first licensed Canadian immigration consultants
+                    globally.
+                  </p>
+                  <div class="social-box flex-row-center justify-content-start">
+                    <div class="icon-box facebook">
+                      <img
+                        src="/asset/icon/facebook.svg"
+                        alt="facebook"
+                        class="facebook-icon icons"
+                      />
+                    </div>
+                    <div class="icon-box twitter">
+                      <img
+                        src="/asset/icon/twitter.svg"
+                        alt="facebook"
+                        class="-icon icons"
+                      />
+                    </div>
+                    <div class="icon-box instagram">
+                      <img
+                        src="/asset/icon/instagram.svg"
+                        alt="facebook"
+                        class="instagram-icon icons"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="boxes flex-row-center flex-column flex-md-row justify-content-evenly gap-5 mb-4"
+              >
+                <img
+                  src="/asset/images/leaders/leader1.png"
+                  alt="leader1-img"
+                  class="leader1-img"
+                />
+                <div>
+                  <p class="heading">Leader Name Here</p>
+                  <p class="subheading">CEO & Co-founder, Study Canada</p>
+                  <p class="intro">
+                    <span>Esbo Khan</span> heads business development and
+                    marketing strategies. He is a certified member of CICC, and
+                    amongst the first licensed Canadian immigration consultants
+                    globally.
+                  </p>
+                  <div class="social-box flex-row-center justify-content-start">
+                    <div class="icon-box facebook">
+                      <img
+                        src="/asset/icon/facebook.svg"
+                        alt="facebook"
+                        class="facebook-icon icons"
+                      />
+                    </div>
+                    <div class="icon-box twitter">
+                      <img
+                        src="/asset/icon/twitter.svg"
+                        alt="facebook"
+                        class="-icon icons"
+                      />
+                    </div>
+                    <div class="icon-box instagram">
+                      <img
+                        src="/asset/icon/instagram.svg"
+                        alt="facebook"
+                        class="instagram-icon icons"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our-Leadership section -->
+
+      <!-- Our-Student-Review section -->
+      <section id="Our-Student-Review" class="wraper top-big-margin">
+        <div class="max-container container position-relative">
+          <img
+            src="/asset/images/bg-images/leaf.svg"
+            alt="leaf-img"
+            class="floating-leaf"
+          />
+          <div class="mb-4">
+            <h1>Our Student Review</h1>
+          </div>
+          <div class="row row-cols-1 row-cols-lg-2 gap-4 gap-lg-0">
+            <div class="col">
+              <div class="boxes flex-center justify-content-evenly">
+                <img
+                  src="/asset/images/leaders/leader1.png"
+                  alt="target-img"
+                  class="Student-img"
+                />
+                <div class="bottom-box w-100 px-4 mt-4">
+                  <div class="inner-box d-flex">
+                    <img
+                      src="/asset/images/students/student4.png"
+                      alt="profile-pic"
+                      class="profile-pic"
+                    />
+                    <p class="m-auto mx-4">
+                      <span>Student Name</span> <br />Location Name
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="boxes flex-center justify-content-evenly">
+                <img
+                  src="/asset/images/leaders/leader1.png"
+                  alt="target-img"
+                  class="Student-img"
+                />
+                <div class="bottom-box w-100 px-4 mt-4">
+                  <div class="inner-box d-flex">
+                    <img
+                      src="/asset/images/students/student4.png"
+                      alt="profile-pic"
+                      class="profile-pic"
+                    />
+                    <p class="m-auto mx-4">
+                      <span>Student Name</span> <br />Location Name
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Our-Way-of-Thinking section -->
+
+      <!-- Partnership section -->
+      <section id="Partnership" class="wraper">
+        <div class="max-container container">
+          <div class="d-flex justify-content-between">
+            <div class="">
+              <h2 class="heading mb-4">Partnership</h2>
+            </div>
+            <div class="">
+              <div id="partnership-slider-box" class="flex-row-center">
+                <img
+                  src="/asset/icon/arrow-right.svg"
+                  alt=""
+                  class="left-icon icon"
+                />
+                <img
+                  src="/asset/icon/arrow-right.svg"
+                  alt=""
+                  class="right-icon icon"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="row row-cols-3 row-cols-md-5 g-3">
+            <div class="col">
+              <div class="card flex-center">
+                <img src="/asset/images/partners/partner1.svg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card flex-center">
+                <img src="/asset/images/partners/partner2.svg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card flex-center">
+                <img src="/asset/images/partners/partner3.svg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card flex-center">
+                <img src="/asset/images/partners/partner4.svg" alt="" />
+              </div>
+            </div>
+            <div class="col">
+              <div class="card flex-center">
+                <img src="/asset/images/partners/partner5.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Partnership section -->
+
+      <!-- Referral Program section -->
+      <section id="Referral-Program" class="wraper">
+        <div class="max-container container">
+          <h2 class="heading">Referral Program</h2>
+          <div
+            class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-3 justify-content-center"
+          >
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="flex-row-around cards">
+                <div class="date">
+                  <p>19<br />JUNE</p>
+                </div>
+                <div class="">
+                  <p class="text">University Visits Capilano University</p>
+                  <a href="">View More &#8594;</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Referral Program section -->
+
+      <!-- FAQ Section -->
+      <section id="faq-section" class="wraper">
+        <img
+          src="/asset/images/bg-images/leaf branch.svg"
+          alt=""
+          class="faq-section-floating-img"
+        />
+        <div class="max-container container">
+          <h2 class="heading text-center mb-5">
+            Frequently Asked Questions (FAQ’s)
+          </h2>
+          <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="qna-box">
+                <div class="question p-3 flex-row-between">
+                  <h5>What is HTML?</h5>
+                  <span class="toggle-icon">+</span>
+                </div>
+                <div class="answer bg-white flex-row-between">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ Section -->
+
+      <!-- Contact form section -->
+      <section id="Contact-form" class="wraper">
+        <form action="" class="max-container container">
+          <img
+            src="/asset/images/bg-images/leaf.svg"
+            alt=""
+            class="Contact-form-float-img"
+          />
+          <h2 class="heading text-center">
+            Any Queries? Don't Hesitate <br />to
+            <span class="text-danger"> Contact Us!! </span>
+          </h2>
+          <div class="row row-cols-1 row-cols-md-2 inputs-box gy-4">
+            <div class="col">
+              <div class="row row-cols-1 g-4">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Full Name"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Phone Number"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="Email Address"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col text-area-container">
+              <div class="row row-cols-1">
+                <div class="col">
+                  <textarea
+                    class="form-control"
+                    id="exampleFormControlTextarea1"
+                    rows="3"
+                  ></textarea>
+                </div>
+                <div class="col">
+                  <button type="submit" class="btn bg-danger text-white">
+                    Submit
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+      <!-- Contact form section -->
+
+      <!-- Footer Section -->
+      <footer id="footer" class="wraper">
+        <div class="max-container container">
+          <div class="row row-cols-1">
+            <div class="col">
+              <div class="row gy-5">
+                <div class="col-12 col-md-6 col-xl-3 boxes">
+                  <div>
+                    <img src="/asset/images/logo2.svg" alt="" class="mb-4" />
+                    <p>
+                      We are leading online marketing agency and web development
+                      company & we always promised to get the best result on our
+                      every project.
+                    </p>
+                    <div class="social-icons-box">
+                      <a href="#" class="icons-box"
+                        ><img
+                          src="/asset/icon/facebook.svg"
+                          alt=""
+                          class="icon"
+                      /></a>
+                      <a href="#" class="icons-box"
+                        ><img src="/asset/icon/twitter.svg" alt="" class="icon"
+                      /></a>
+                      <a href="#" class="icons-box"
+                        ><img
+                          src="/asset/icon/instagram.svg"
+                          alt=""
+                          class="icon"
+                      /></a>
+                      <a href="#" class="icons-box"
+                        ><img src="/asset/icon/in.svg" alt="" class="icon"
+                      /></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 boxes">
+                  <div>
+                    <h3>Our Service</h3>
+                    <p class="lines"></p>
+                    <ul>
+                      <li><a href="#">Student Profile Analysis</a></li>
+                      <li><a href="#">Financial eligibility assessment</a></li>
+                      <li><a href="#">Visa Processing</a></li>
+                      <li><a href="#">Admission Support</a></li>
+                      <li><a href="#">Scholarship And Financial Aid</a></li>
+                      <li><a href="#">Post Departure Support</a></li>
+                      <li>
+                        <a href="#">Immigration and settlement services</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 boxes">
+                  <div>
+                    <h3>Useful links</h3>
+                    <p class="lines"></p>
+                    <ul>
+                      <li><a href="/index.html">Home</a></li>
+                      <li><a href="/pages/about.html">About Us</a></li>
+                      <li><a href="/pages/service.html">Service</a></li>
+                      <li><a href="/pages/blog.html">Blog</a></li>
+                      <li><a href="/pages/event.html">Event</a></li>
+                      <li><a href="/pages/apply.html">Apply Now</a></li>
+                      <li>
+                        <a href="/pages/contact.html">Contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3 boxes">
+                  <div class="last-ul-container">
+                    <h3>Our Phone Number</h3>
+                    <p class="lines"></p>
+                    <ul>
+                      <li>
+                        <img src="/asset/icon/phone.svg" alt="" />017 0000 5555
+                      </li>
+                      <li>
+                        <img src="/asset/icon/phone.svg" alt="" />017 0000 5555
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="last-ul-container">
+                    <h3>Email or Website</h3>
+                    <p class="lines"></p>
+                    <ul>
+                      <li>
+                        <img
+                          src="/asset/icon/phone.svg"
+                          alt=""
+                        />studycan@gmail.com
+                      </li>
+                      <li>
+                        <img
+                          src="/asset/icon/phone.svg"
+                          alt=""
+                        />www.study-can.com
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="box-2">
+                <p>© 2023 Opstel IT All Rights Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Section -->
     </main>
 
     <!-- Scripts -->

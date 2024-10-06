@@ -157,3 +157,90 @@
   font-weight: var(--secondary-font-weight);
 }
 /* Why-Coaching-Study-Canada */
+
+/* Our-Leadership */
+#Our-Leadership .floating-leaf {
+  position: absolute;
+  right: 0;
+  top: -30px;
+}
+#Our-Leadership .boxes {
+  background-color: var(--secondary-white);
+  padding: 2rem;
+}
+#Our-Leadership .leader1-img {
+  aspect-ratio: 24/24;
+  width: 240px;
+  border-radius: 10px;
+}
+
+#Our-Leadership .boxes .heading {
+  font-size: xx-large;
+  margin-bottom: 0;
+  color: var(--primary-red);
+}
+#Our-Leadership .boxes .subheading {
+  font-size: large;
+}
+#Our-Leadership .boxes .intro span {
+  color: var(--primary-red);
+  font-weight: 600;
+}
+
+#Our-Leadership .social-box .icon-box {
+  background-color: green;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+#Our-Leadership .social-box .icons {
+  width: 25px;
+  height: 25px;
+}
+
+#Our-Leadership .social-box .facebook {
+  background-color: #0e5da5;
+}
+#Our-Leadership .social-box .twitter {
+  background-color: #469cec;
+}
+#Our-Leadership .social-box .instagram {
+  background: linear-gradient(
+    228.01deg,
+    #ff0b80 0%,
+    #c442c7 50.81%,
+    #3167f2 95.26%
+  );
+}
+/* Our-Leadership */
+
+/* Our-Student-Review */
+#Our-Student-Review .floating-leaf {
+  position: absolute;
+  left: 50%;
+  top: -20px;
+  opacity: 0.5;
+}
+#Our-Student-Review .boxes {
+  height: fit-content;
+  padding: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 18px 40px 0 rgba(0, 0, 0, 0.1);
+}
+#Our-Student-Review .boxes .Student-img {
+  aspect-ratio: 57/36;
+  width: 95%;
+  border-radius: 5px;
+}
+#Our-Student-Review .boxes .profile-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+#Our-Student-Review .inner-box {
+  width: fit-content;
+}
+#Our-Student-Review .inner-box span {
+  font-size: large;
+  font-weight: 500;
+}
+/* Our-Student-Review */
