@@ -494,50 +494,6 @@ body {
 }
 /* Referral Program section ends here */
 
-/* Contact-form section starts here */
-#Contact-form {
-  padding: 4rem 0;
-  margin-top: 3rem;
-}
-
-#Contact-form form {
-  position: relative;
-  font-weight: 500;
-  color: #555555;
-}
-#Contact-form .inputs-box {
-  margin-top: 3rem;
-}
-
-#Contact-form .Contact-form-float-img {
-  position: absolute;
-  width: 95px;
-  height: 95px;
-  z-index: -1;
-  left: 18%;
-}
-
-#Contact-form input,
-#Contact-form textarea {
-  background-color: #f8f8f8;
-}
-#Contact-form form input {
-  height: 50px;
-}
-#Contact-form textarea {
-  height: 128px;
-  margin-bottom: 20px;
-}
-#Contact-form button {
-  all: unset;
-  width: 100%;
-  height: 50px;
-  border-radius: 5px;
-  text-align: center;
-  cursor: pointer;
-}
-/* Contact-form section ends here */
-
 /* footer  section ends here */
 #footer {
   padding: 4rem 0 1rem 0;
