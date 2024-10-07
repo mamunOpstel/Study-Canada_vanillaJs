@@ -15,38 +15,6 @@
     <link rel="stylesheet" href="/css/global.css" />
     <link rel="stylesheet" href="/css/about.css" />
     <link rel="stylesheet" href="/css/responsive.css" />
-
-    <style>
-      /* Initial style to hide the dropdown */
-      #services-dropdown {
-        display: none;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        position: absolute;
-        background-color: rgb(221, 54, 54);
-        border: 1px solid #ddd;
-      }
-
-      #services-dropdown li {
-        padding: 10px;
-        border-bottom: 1px solid #ddd;
-      }
-
-      #services-dropdown li a {
-        text-decoration: none;
-        color: black;
-      }
-
-      #services-dropdown li:hover {
-        background-color: #f0f0f0;
-      }
-
-      #services-li {
-        position: relative;
-        cursor: pointer;
-      }
-    </style>
   </head>
   <body>
     <main>
@@ -99,15 +67,27 @@
                 <li>
                   <a href="/pages/about.html">About Us</a>
                 </li>
-                <li>
+                <li id="services-li">
                   <a href="#">Services</a>
-                  <ul id="services-dropdown" class="dropdown">
-                    <li><a href="/pages/service1.html">Service 1</a></li>
-                    <li><a href="/pages/service2.html">Service 2</a></li>
-                    <li><a href="/pages/service3.html">Service 3</a></li>
-                  </ul>
+                  <div id="services-drop-menu">
+                    <ul class="flex-center drop-list align-items-start">
+                      <li>
+                        <a href="/pages/service1.html"
+                          >Student Profile Analysis</a
+                        >
+                      </li>
+                      <li>
+                        <a href="/pages/service2.html"
+                          >Financial eligibility assessment</a
+                        >
+                      </li>
+                      <li class="last-li">
+                        <a href="/pages/service3.html">Visa Processing</a>
+                      </li>
+                    </ul>
+                  </div>
                 </li>
-                <li>
+                <li id="Admission-li">
                   <a href="/pages/admissionHelp.html">Admission Help</a>
                 </li>
                 <li>
@@ -201,7 +181,9 @@
       <!-- navbar -->
 
       <!-- Common Hero Slides section -->
-      <section class="common-hero-section wraper section-margin">
+      <section
+        class="common-hero-section wraper section-margin position-relative minus-index"
+      >
         <div class="max-container container position-relative">
           <img
             src="/asset/images/bg-images/leaf.svg"
@@ -253,25 +235,28 @@
                 </button>
               </div>
             </div>
-
-            <div class="flex-row-center slider-btns-box">
-              <img
-                src="/asset/icon/arrow-left.svg"
-                alt=""
-                class="left-icon"
-                onclick="PreviousSlide()"
-              />
-              <span>&vert;</span>
-              <img
-                src="/asset/icon/arrow-right.svg"
-                alt=""
-                class="right-icon"
-                onclick="nextSlide()"
-              />
-            </div>
           </div>
         </div>
       </section>
+
+      <div id="slider-btns-box" class="max-container">
+        <div class="flex-row-center slider-btns-box">
+          <img
+            src="/asset/icon/arrow-left.svg"
+            alt=""
+            class="left-icon"
+            onclick="PreviousSlide()"
+          />
+          <span>&vert;</span>
+          <img
+            src="/asset/icon/arrow-right.svg"
+            alt=""
+            class="right-icon"
+            onclick="nextSlide()"
+          />
+        </div>
+      </div>
+
       <!-- Common Hero Slides section -->
 
       <!-- Our Infrastructure section -->

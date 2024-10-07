@@ -110,6 +110,25 @@
   height: 50px;
   cursor: pointer;
 }
+/* For Drop-down-menu */
+#services-li {
+  #services-drop-menu {
+    position: absolute;
+    background-color: var(--secondary-white);
+    border-radius: 5px;
+    z-index: 20;
+    display: none;
+    ul {
+      padding: 1rem;
+      gap: 0;
+    }
+  }
+  &:hover #services-drop-menu {
+    display: block;
+  }
+}
+/* For Drop-down-menu */
+
 /* navbox2's styles ends here */
 
 /* Side menubar styles starts here */
@@ -206,10 +225,10 @@
 
 .slider-btns-box {
   background-color: #fffdfd;
-  position: absolute;
-  z-index: 20;
-  bottom: -30px;
-  left: 30px;
+  position: relative;
+  z-index: 100;
+  bottom: 75px;
+  left: 45px;
   width: 100px;
   gap: 8px;
   padding: 10px 64px;

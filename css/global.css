@@ -81,6 +81,10 @@
   color: var(--primary-black);
 }
 
+.minus-index{
+  z-index: -1 !important;
+}
+
 .btn-p {
   padding: 10px 15px;
 }
