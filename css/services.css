@@ -1,0 +1,43 @@
+#Our-Service {
+  .boxes {
+    background-color: #f7f7f7;
+    padding: 1.5rem;
+    width: 100%;
+
+    .filter-img {
+      background-color: red;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: var(--primary-red);
+    }
+  }
+}
+
+#Working-for-Students {
+  margin: 7rem 0;
+}
+
+.Selection-Assistance-style {
+  margin-top: 8rem;
+  .boxes {
+    width: 100%;
+
+    .assistance-img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .subheading {
+      font-size: larger;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      .red-dot {
+        color: var(--primary-red);
+      }
+    }
+  }
+}

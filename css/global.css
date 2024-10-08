@@ -81,13 +81,23 @@
   color: var(--primary-black);
 }
 
-.minus-index{
+.minus-index {
   z-index: -1 !important;
 }
 
 .btn-p {
   padding: 10px 15px;
 }
+
+.red-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
 /* Buttons */
 
 /* list */
