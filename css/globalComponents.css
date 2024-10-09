@@ -691,3 +691,42 @@
   cursor: pointer;
   font-weight: 700;
 }
+.red-button {
+  all: unset;
+  min-width: 220px;
+  height: 50px;
+  border-radius: 8px;
+  color: white;
+  background-color: var(--primary-red);
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+.dark-blue-button {
+  all: unset;
+  min-width: 220px;
+  height: 50px;
+  border-radius: 8px;
+  color: white;
+  background-color: var(--dark-blue);
+  text-align: center;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.red-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: red;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.white-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
