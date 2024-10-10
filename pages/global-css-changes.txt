@@ -1,3 +1,0 @@
-.bg-sec-white{
-  background-color: var(--secondary-white);
-}
