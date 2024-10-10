@@ -22,6 +22,9 @@
 .bg-red {
   background-color: var(--primary-red);
 }
+.bg-sec-white {
+  background-color: var(--secondary-white);
+}
 .color-red {
   color: var(--primary-red);
 }
