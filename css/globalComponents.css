@@ -127,6 +127,56 @@
     display: block;
   }
 }
+#fild-a-course-li {
+  #fild-a-course-drop-menu {
+    position: absolute;
+    background-color: var(--secondary-white);
+    border-radius: 5px;
+    z-index: 20;
+    display: none;
+    ul {
+      padding: 1rem;
+      gap: 0;
+    }
+  }
+  &:hover #fild-a-course-drop-menu {
+    display: block;
+  }
+}
+#Student-Esentials-li {
+  #Student-Esentials-drop-menu {
+    position: absolute;
+    background-color: var(--secondary-white);
+    border-radius: 5px;
+    z-index: 20;
+    display: none;
+    ul {
+      padding: 1rem;
+      gap: 0;
+    }
+  }
+  &:hover #Student-Esentials-drop-menu {
+    display: block;
+  }
+}
+
+#Study-Canada-li {
+  #Study-Canada-drop-menu {
+    position: absolute;
+    background-color: var(--secondary-white);
+    border-radius: 5px;
+    z-index: 20;
+    display: none;
+    ul {
+      min-width: 200px;
+      padding: 1rem;
+      gap: 0;
+    }
+  }
+  &:hover #Study-Canada-drop-menu {
+    display: block;
+  }
+}
 /* For Drop-down-menu */
 
 /* navbox2's styles ends here */
@@ -727,6 +777,14 @@
   width: 12px;
   height: 12px;
   background-color: white;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.blue-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background-color: var(--primary-blue);
   border-radius: 50%;
   margin-right: 5px;
 }

@@ -1,0 +1,47 @@
+#Know-your-best-fit {
+  select {
+    padding: 15px;
+    width: 90%;
+    &:focus {
+      border: none;
+      box-shadow: none;
+    }
+  }
+}
+
+#courses-cards-section {
+  .cards {
+    height: 100%;
+    width: 90%;
+    border: 1px solid #aaaaaa;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-left: 2rem;
+    text-align: start;
+    transition: all 0.2s linear;
+    &:hover {
+      box-shadow: 0px 20px 40px 0px #0000001a;
+    }
+
+    .card-heading {
+      color: var(--primary-red);
+      font-weight: 600;
+      font-size: large;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        color: var(--primary-blue);
+        font-size: large;
+        font-weight: 500;
+      }
+    }
+    a {
+      text-decoration: none;
+      color: var(--primary-red);
+      font-weight: 600;
+      font-size: large;
+    }
+  }
+}
