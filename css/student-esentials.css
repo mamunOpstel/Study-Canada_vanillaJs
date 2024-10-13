@@ -1,0 +1,49 @@
+#Get-the-Right-Student-Health-Cover {
+  .box2 {
+    ul {
+      li {
+        font-weight: bold;
+        color: var(--primary-red);
+      }
+    }
+  }
+}
+
+#Get-the-Student-Health-Care-Stress-Free {
+  ul {
+    li {
+      font-weight: bold;
+      color: var(--primary-red);
+    }
+  }
+}
+
+#Get-the-right-Student-Health-Cover-cards {
+  margin-top: 8rem;
+  a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .boxes {
+    width: 100%;
+
+    .assistance-img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .subheading {
+      font-size: larger;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      .red-dot {
+        color: var(--primary-red);
+      }
+    }
+  }
+}
+
+#text-section {
+  background-color: var(--gray-white);
+}
