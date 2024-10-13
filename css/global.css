@@ -15,6 +15,11 @@
   --primary-red: #e50019;
   --primary-blue: #0E5DA5;
   --dark-blue: rgba(18, 26, 80, 1);
+  --brown:#BB5D5D;
+  --violet:#4B56A5;
+  --pink:#B83885;
+  --green:#41A68E;
+  
   --primary-font-weight: 700;
   --secondary-font-weight: 600;
 }

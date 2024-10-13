@@ -45,3 +45,93 @@
     }
   }
 }
+
+/* View All Courses page */
+#All-courses {
+  .course-box {
+    width: 280;
+    height: 140px;
+    border-radius: 10px;
+    a {
+      text-decoration: none;
+      font-family: Inter;
+      color: white;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 29.05px;
+      text-align: center;
+    }
+  }
+  .box1 {
+    background-color: var(--brown);
+  }
+  .box2 {
+    background-color: var(--violet);
+  }
+  .box3 {
+    background-color: var(--pink);
+  }
+  .box4 {
+    background-color: var(--green);
+  }
+  .box5 {
+    background-color: var(--pink);
+  }
+  .box6 {
+    background-color: var(--green);
+  }
+  .box7 {
+    background-color: var(--brown);
+  }
+  .box8 {
+    background-color: var(--violet);
+  }
+  .box9 {
+    background-color: var(--violet);
+  }
+  .box10 {
+    background-color: var(--brown);
+  }
+  .box11 {
+    background-color: var(--green);
+  }
+}
+
+/* Course details page */
+/* course-statistics section */
+#course-statistics {
+  .boxes-container {
+    background-color: var(--gray-white);
+    border-radius: 10px;
+    padding: 2rem;
+
+    .boxes {
+      width: 100%;
+      height: 200px;
+      text-align: center;
+      color: var(--primary-black);
+      font-size: larger;
+      font-weight: 400;
+      .icons {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 1rem;
+      }
+    }
+    .border-right {
+      border-right: 2px solid white;
+      @media (width < 768px) {
+        border-right: none;
+        border-bottom: 2px solid white;
+      }
+    }
+  }
+}
+
+#peragraph-box-section {
+  .peragraph-box {
+    background-color: var(--gray-white);
+    padding: 2rem;
+    border-radius: 20px;
+  }
+}
