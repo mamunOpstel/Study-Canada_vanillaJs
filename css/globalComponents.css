@@ -249,6 +249,7 @@
   color: white;
   transition: all 0.5s ease;
   display: none;
+  text-wrap: balance;
 }
 .slide a {
   text-decoration: none;
@@ -265,12 +266,17 @@
 }
 .slide-content {
   height: 500px;
-  width: 80%;
-  margin: auto;
+  width: 60%;
+  margin-left: 3rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  gap: 40px;
+  @media (width<768px) {
+    width: 90%;
+    margin-left: 1.5rem;
+  }
 }
 
 .slider-btns-box {
@@ -313,6 +319,7 @@
   .floating-leaf {
     position: absolute;
     right: 0;
+    z-index: 10;
     transform: rotate(270deg);
   }
   h1 {
@@ -322,6 +329,9 @@
     position: relative;
     padding-left: 1rem;
     margin-top: 7rem;
+    @media (width<768px) {
+      margin-top: 1rem;
+    }
   }
   .back-box {
     border-left: 10px solid #dddddd;
@@ -674,7 +684,8 @@
 
 /* footer  section ends here */
 #footer {
-  padding: 4rem 0 1rem 0;
+  padding: 1rem;
+  padding-top: 4rem;
   margin-top: 3rem;
   background-color: #12173d;
   color: #ffffff;

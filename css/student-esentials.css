@@ -47,3 +47,78 @@
 #text-section {
   background-color: var(--gray-white);
 }
+
+#Select-inputs {
+  .inputs-container {
+    padding: 12px;
+    border-radius: 50px;
+    border: 1px solid rgba(221, 221, 221, 1);
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+
+    select {
+      border-radius: 50px;
+      padding: 10px;
+      padding-left: 1rem;
+
+      &:focus {
+        box-shadow: none;
+        border: 1px solid rgba(221, 221, 221, 1);
+      }
+    }
+
+    #find-btn {
+      width: 100%;
+      border: none;
+      background-color: var(--primary-blue);
+      border-radius: 50px;
+      padding: 10px 15px;
+      color: white;
+      font-weight: 500;
+      transition: color 0.2s;
+      &:hover{
+        background-color: #1067b8;
+      }
+    }
+  }
+}
+
+#text-section-two {
+  .warning-box {
+    margin-bottom: 4rem;
+    .danger-icon {
+      width: 60px;
+      height: 60px;
+      display: block;
+    }
+  }
+}
+
+#Your-stay-options {
+  margin-top: 5rem;
+  @media (width<768px) {
+    margin-top: 2rem;
+  }
+  .boxes {
+    width: 100%;
+    text-wrap: balance;
+
+    .assistance-img {
+      width: 100%;
+      border-radius: 10px;
+      aspect-ratio: 6/3;
+    }
+    .subheading {
+      font-size: larger;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      .red-dot {
+        color: var(--primary-red);
+      }
+      li {
+        text-wrap: balance;
+      }
+    }
+  }
+}
