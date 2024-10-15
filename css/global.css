@@ -3,11 +3,14 @@
 * {
   font-family: "Inter", sans-serif;
 }
+a {
+  text-decoration: none;
+}
 :root {
   --subheading-font-size: xx-large;
   --big-text-font-size: x-large;
   --midium-text-font-size: large;
-  --secondary-white: #f7f7f7;
+  --secondary-white: rgb(247, 247, 247);
   --primary-gray: #555555;
   --gray-white: rgba(238, 238, 238, 1);
   --primary-black: #111111;
@@ -24,6 +27,17 @@
   --secondary-font-weight: 600;
 }
 
+/* Section Tamplate
+<section class="wraper">
+  <div class="container">
+    <div class="row">
+      <div class="clo"></div>
+      <div class="clo"></div>
+    </div>
+  </div>
+</section>
+Section Tamplate */
+
 /* Colors  */
 .bg-red {
   background-color: var(--primary-red);
@@ -33,6 +47,9 @@
 }
 .color-red {
   color: var(--primary-red);
+}
+.color-dark-blue {
+  color: var(--dark-blue);
 }
 .color-yellow {
   color: yellow;
