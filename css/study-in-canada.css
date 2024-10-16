@@ -1,0 +1,269 @@
+#Benefits-of-Study-in-Canada {
+  background-color: rgba(244, 244, 244, 1);
+  .blue-line {
+    display: inline-block;
+    background-color: rgba(18, 26, 80, 1);
+    width: 100px;
+    height: 7px;
+    border-radius: 5px;
+  }
+
+  .leaf {
+    width: 70px;
+    height: 70px;
+    transform: rotate(-45deg);
+  }
+
+  .box {
+    width: 100%;
+    height: 200px;
+    background-color: green;
+  }
+
+  .card {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem 2rem;
+    padding-top: 50px;
+    margin-top: 40px;
+    position: relative;
+    border: none;
+    border-radius: 0;
+
+    .small-heading {
+      color: rgba(18, 26, 80, 1);
+      text-align: center;
+    }
+
+    .card-icon {
+      background-color: #d82727;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      padding: 15px;
+      position: absolute;
+      top: -50px;
+    }
+  }
+}
+
+#tabs-section {
+  .tabs-container {
+    background-color: rgba(244, 244, 244, 1);
+    border-radius: 10px;
+    padding: 2rem 0;
+
+    .btn-box {
+      border-right: 1px solid rgba(170, 170, 170, 1);
+      @media (width<768px) {
+        border: none;
+        gap: 15px;
+      }
+      button {
+        border: 1px solid rgba(18, 26, 80, 1);
+        width: 250px;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: 600;
+      }
+      button .active {
+        background-color: var(--dark-blue);
+        color: white;
+      }
+    }
+  }
+}
+
+#Study-Canada-Helping-Students {
+  background-color: var(--dark-blue);
+  color: white;
+  /* padding: 2rem;
+   @media (width<768px)  {
+    padding: 1rem;
+   } */
+  .candian-flag {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 10px 15px 2px var(--primary-red);
+  }
+  .text-box {
+    font-size: larger;
+    font-weight: 600;
+  }
+}
+
+#Canada-Education-System {
+  .tag-box {
+    margin-bottom: 1rem;
+    .tag {
+      all: unset;
+      padding: 12px 15px;
+      margin: 12px;
+      border-radius: 5px;
+      box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.1);
+      color: var(--primary-red);
+      font-weight: 500;
+    }
+  }
+}
+
+#Types-of-Institutes-in-Canada {
+  .box {
+    padding: 3rem;
+    border: 1px solid rgba(170, 170, 170, 1);
+    .number {
+      width: 50px;
+      height: 50px;
+      background-color: var(--primary-red);
+      color: white;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+#How-to-Apply {
+  .card {
+    padding: 2rem;
+    border: 1px solid rgba(170, 170, 170, 1);
+    border-radius: 20px;
+    max-width: 380px;
+    margin: auto;
+    .card-icon {
+      background-color: #d82727;
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      padding: 15px;
+    }
+    p {
+      margin-top: 10px;
+      font-size: larger;
+      font-weight: 800;
+      text-align: center;
+    }
+  }
+}
+
+#Processing-of-a-Canada-Student-Visa {
+  background-color: rgba(244, 244, 244, 1);
+  padding: 2rem 0;
+  .floating-leaf {
+    position: absolute;
+    right: 80px;
+    bottom: -60px;
+    opacity: 0.5;
+  }
+}
+
+#Cost-of-Studying {
+  .coins-img {
+    aspect-ratio: 580/864;
+    border-radius: 20px;
+  }
+}
+
+#Inquire-Now {
+  position: relative;
+  .shape {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    @media (width<992px) {
+      top: 30%;
+    }
+  }
+  .img-box {
+    position: relative;
+  }
+  .bg-box {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    left: 0;
+    z-index: -3;
+    bottom: 0;
+    background-color: var(--primary-red);
+    @media (width<992px) {
+      height: 600px;
+    }
+  }
+  .flying-img {
+    max-width: 550px;
+  }
+  .text-box {
+    padding-top: 5rem;
+  }
+}
+
+#Scholarship-Options {
+  .img-box {
+    position: relative;
+    overflow: hidden;
+    padding-right: 0;
+    .line-one,
+    .line-two {
+      background-color: var(--dark-blue);
+      position: absolute;
+      z-index: 3;
+    }
+    .line-one {
+      width: 20px;
+      height: 100%;
+      right: 30%;
+      top: 0;
+      bottom: 0;
+    }
+    .line-two {
+      width: 100%;
+      height: 15px;
+      left: 70%;
+      right: 0;
+      top: 40%;
+    }
+  }
+}
+
+#peragraph-section {
+  p,
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+  }
+  a {
+    text-decoration: none;
+    color: var(--primary-red);
+  }
+}
+
+#Expense-Vs-Earning {
+  .bnt-box {
+    .bnt {
+      all: unset;
+      cursor: pointer;
+      font-size: large;
+      font-weight: 500;
+    }
+    .active {
+      border-bottom: 3px solid var(--primary-red);
+    }
+  }
+}
+
+#List-of-Top-Universities-one,  
+#List-of-Top-Universities-two {
+  .border-gray {
+    border: 1px solid rgba(170, 170, 170, 1);
+  }
+
+  th,
+  td {
+    padding: 12px 0;
+    font-size: large;
+    font-weight: 500;
+    color: rgba(18, 26, 80, 1);
+  }
+}
