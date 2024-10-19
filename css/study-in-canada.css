@@ -253,7 +253,7 @@
   }
 }
 
-#List-of-Top-Universities-one,  
+#List-of-Top-Universities-one,
 #List-of-Top-Universities-two {
   .border-gray {
     border: 1px solid rgba(170, 170, 170, 1);
@@ -265,5 +265,176 @@
     font-size: large;
     font-weight: 500;
     color: rgba(18, 26, 80, 1);
+  }
+}
+
+#blog-section {
+  .content-box {
+    .tags-box {
+      .tag {
+        border: 1px solid var(--primary-gray);
+        border-radius: 50px;
+        padding: 8px 15px;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .comment-box {
+    border-top: 1px solid var(--primary-gray);
+    margin-top: 2rem;
+    .comment-cards-container {
+      margin-top: 1rem;
+      .commment {
+        align-items: flex-start;
+        .img-box {
+          img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+          }
+        }
+      }
+    }
+  }
+
+  .adds-container {
+    padding-left: 2rem;
+    gap: 2rem;
+    @media (width < 768px) {
+      margin-top: 2rem;
+      padding-left: 0;
+    }
+    .add {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+      @media (width < 992px) {
+        flex-direction: column;
+      }
+      .img-box {
+        width: 70%;
+        @media (width < 992px) {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+          border-radius: 5px;
+        }
+      }
+      a {
+        color: var(--primary-red);
+      }
+    }
+  }
+}
+
+#form-section {
+  .contant-padding {
+    padding: 2rem 3rem;
+    border-radius: 20px;
+
+    @media (width < 992px) {
+      padding: 1rem;
+    }
+  }
+  .first-box {
+    .img-box {
+      position: relative;
+      width: 410px;
+      height: 450px;
+      border-radius: 20px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: relative;
+        z-index: 2;
+        border-radius: 20px;
+      }
+      .text-box {
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+        padding-left: 30px;
+        .img-text {
+          width: 80%;
+          text-align: center;
+          color: white;
+          text-align: start;
+        }
+      }
+    }
+    .media-box {
+      .box {
+        .icons {
+          width: 60px;
+          height: 60px;
+          padding: 15px;
+          background-color: var(--primary-blue);
+          border-radius: 5px;
+        }
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  #contactForm {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 2rem;
+    border-radius: 20px;
+
+    input:focus,
+    textarea:focus {
+      box-shadow: none;
+    }
+    input,
+    textarea {
+      height: 70px;
+      border-radius: 10px;
+      background-color: rgba(249, 249, 249, 1);
+      border: 1px solid rgba(221, 221, 221, 1);
+      opacity: 0px;
+    }
+    textarea {
+      height: 300px;
+    }
+    .submit-btn {
+      all: unset;
+      border: 1px solid rgba(221, 221, 221, 1);
+      padding: 15px 60px;
+      border-radius: 50px;
+      transition: all 0.3s linear;
+      cursor: pointer;
+      font-weight: medium;
+      color: var(--primary-blue);
+      &:hover {
+        border: 1px solid var(--primary-blue);
+      }
+    }
+  }
+}
+
+#location-section {
+  margin-top: 2rem;
+  .tags-box {
+    .tag {
+      display: inline-block;
+      border: 1px solid var(--primary-gray);
+      border-radius: 50px;
+      padding: 12px 40px;
+      font-weight: 500;
+      margin-right: 10px;
+    }
+  }
+  .map-img{
+    margin-top: 2rem;
+    width: 100%;
+    max-height: 500px;
+    border-radius: 20px;
   }
 }
